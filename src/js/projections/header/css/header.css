@@ -1,0 +1,28 @@
+.topbar {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: cornflowerblue;
+  justify-content: right;
+}
+.home {
+  padding: 10px;
+  margin-right: auto;
+  cursor: pointer;
+  color: gold;
+  flex: 1;
+}
+
+@media (max-width: 500px) {
+  .home {
+    flex: 1;
+  }
+  .search-bar {
+    flex: 2;
+  }
+  .cart-bar {
+    flex: 1;
+  }
+}

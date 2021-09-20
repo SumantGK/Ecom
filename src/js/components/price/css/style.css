@@ -1,0 +1,40 @@
+.price {
+  font-size: 15px;
+  padding: 2px;
+  font-weight: 500;
+}
+.ori-price {
+  font-size: 10px;
+  text-decoration: line-through;
+  padding: 2px;
+}
+.discount {
+  font-size: 12px;
+  font-weight: 600;
+  color: green;
+  padding: 2px;
+}
+.prices-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+@media (max-width: 500px) {
+  .price {
+    font-size: 12px;
+    padding: 1px;
+    font-weight: 500;
+  }
+  .ori-price {
+    font-size: 10px;
+    text-decoration: line-through;
+    padding: 1px;
+  }
+  .discount {
+    font-size: 12px;
+    font-weight: 600;
+    color: green;
+    padding: 1px;
+  }
+}

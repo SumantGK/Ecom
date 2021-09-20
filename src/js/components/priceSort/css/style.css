@@ -1,0 +1,21 @@
+.main-header {
+  padding: 10px;
+}
+.sort-btn {
+  background: none;
+  border: none;
+  display: inline;
+}
+.mobile-sort {
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+}
+@media (max-width: 500px) {
+  .mobile-sort {
+    display: block;
+  }
+  .main-header {
+    display: none;
+  }
+}

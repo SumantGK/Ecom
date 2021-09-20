@@ -1,0 +1,34 @@
+[
+  {
+    "id": "colorNone",
+    "color": "None",
+    "css": {
+      "background-color": "#FFFFFF",
+      "background-image": "linear-gradient(315deg, #FFFFFF 0%, #FFFFFF 74%)"
+    }
+  },
+  {
+    "id": "color1",
+    "color": "Blue",
+    "css": {
+      "background-color": "#5ca0f2",
+      "background-image": "linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%)"
+    }
+  },
+  {
+    "id": "color2",
+    "color": "Pink",
+    "css": {
+      "background-color": "#e96196",
+      "background-image": "linear-gradient(315deg, #e96196 0%, #ffffff 74%)"
+    }
+  },
+  {
+    "id": "color3",
+    "color": "Naten",
+    "css": {
+      "background-color": "#29e7cd",
+      "background-image": "linear-gradient(315deg, #29e7cd 0%, #fffbfc 74%)"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "currency": "USD",
+    "value": 1,
+    "symbol": "$"
+  },
+  {
+    "currency": "INR",
+    "value": 72,
+    "symbol": "₹"
+  },
+  {
+    "currency": "GBP",
+    "value": 0.73,
+    "symbol": "£"
+  },
+  {
+    "currency": "AED",
+    "value": 3.67,
+    "symbol": "د.إ"
+  }
+]

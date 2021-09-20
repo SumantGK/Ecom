@@ -1,0 +1,18 @@
+:root {
+  --primary: cornflowerblue;
+  --secondary: gold;
+  --danger: tomato;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.footer {
+  bottom: 0;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  background-color: var(--primary);
+}

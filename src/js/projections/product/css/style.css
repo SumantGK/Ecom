@@ -1,0 +1,17 @@
+.product-page {
+  display: flex;
+  flex-direction: row;
+}
+.product-page > .sidebar {
+  flex: 1;
+}
+.product-page > .main {
+  flex: 3;
+  object-fit: contain;
+}
+@media (max-width: 500px) {
+  .product-page {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

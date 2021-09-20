@@ -1,0 +1,20 @@
+.filter-price-sort {
+  display: none;
+}
+@media (max-width: 500px) {
+  .filter-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+    text-align: center;
+  }
+  .filter-price-sort {
+    display: block;
+    flex: 1;
+    border-right: 1px solid;
+  }
+  .filter-price-range {
+    flex: 1;
+  }
+}

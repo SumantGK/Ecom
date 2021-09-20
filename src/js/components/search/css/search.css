@@ -1,0 +1,28 @@
+.search-bar {
+  display: flex;
+  flex-direction: row;
+}
+.search-text {
+  padding: 2px;
+  border: none;
+  flex: 1;
+}
+
+.search-button {
+  background-color: var(--secondary);
+  color: white;
+  border: none;
+  padding: 2px;
+  flex: 1;
+}
+
+@media (max-width: 400px) {
+  .search-text {
+    padding: 2px;
+    border: none;
+  }
+
+  .search-button {
+    display: inline;
+  }
+}
